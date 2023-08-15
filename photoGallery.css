@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+}
+.container{
+    background-color: aliceblue;
+
+}
+#errorMessage{
+    display: none;
+}
+#button{
+    color: aliceblue;
+}
+#gallery{
+    display:none;
+}
+#gallery img{
+    width: 400px;
+    height:250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin:5px;
+}

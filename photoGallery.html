@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./photoGallery.css">
+    <title>Photo-Gallery</title>
+</head>
+<body class='m-0 flex min-h-screen justify-center items-center text-center'>
+    <div class="container flex flex-col w-[90%] m-[10px] shadow-lg items-center p-4 rounded">
+        <h1 class="text-4xl font-bold">Photo Gallery</h1>
+        <h2 class="font-medium text-2xl">Enter the number of photos</h2>
+        <input type="number" value="2" id="input" min="1" max="10" class="pl-4 m-2 pr-4 pb-2 pt-2 text-lg w-[100px] text-center rounded-lg bg-red-300">
+        <small id="errorMessage" class="text-red-600 font-medium m-2">Error Message</small>
+        <button id="button" class="w-[250px] rounded text-lg my-5 h-[45px] bg-black hover:bg-green-700 hover:cursor-pointer transition">GET PHOTOS</button>
+        <div id="gallery">
+            <img src="https://images.unsplash.com/photo-1603117197557-1d9a830187f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=385&q=80" alt="image">
+        </div>
+    </div>
+</body>
+</html>
+<script src="./photoGallery.js"></script>
